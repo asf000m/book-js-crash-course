@@ -30,6 +30,8 @@ let leftScore = 0;
 let rightScore = 0;
 let gameOver = false;
 
+let time_out = 25;
+
 document.addEventListener("mousemove", e => {
   rightPaddleTop = e.y - canvas.offsetTop;
 });
@@ -155,10 +157,12 @@ function checkCollision() {
 
   if (ball.left < 0) {
     rightScore++;
+    time_out -= 1;
     initBall();
   }
   if (ball.right > width) {
     leftScore++;
+    time_out -= 1;
     initBall();
   }
   if (leftScore > 9 || rightScore > 9) {
@@ -185,7 +189,7 @@ function gameLoop() {
     drawGameOver();
   } else {
     // call this function again after a timeout
-    setTimeout(gameLoop, 20);
+    setTimeout(gameLoop, time_out);
   }
 }
 
