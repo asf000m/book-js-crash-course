@@ -1,0 +1,20 @@
+<h1>JavaScript Crash Course</h1>
+<h2>Nick Morgan</h2>
+<p>2024. Published by No Starch Press</p>
+<p>ISBN-13: 978-1-7185-0226-0 (print)</p>
+<p>ISBN-13: 978-1-7185-0227-7 (ebook)</p>
+
+<h3>PART I. THE LANGUAGE</h3>
+<h4>1. GETTING STARTED</h4>
+<h4>2. THE BASICS</h4>
+<h4>3. COMPOUND DATA TYPES</h4>
+<h4>4. CONDITIONALS AND LOOPS</h4>
+<h4>5. FUNCTIONS</h4>
+<h4>6. CLASSES</h4>
+<h3>PART II. INTERACTIVE JAVASCRIPT</h3>
+<h4>7. HTML, THE DOM, AND CSS</h4>
+<h4>8. EVENT-BASED PROGRAMMING</h4>
+<h4>9. THE CANVAS ELEMENT</h4>
+<h3>PART III. PROJECTS</h3>
+<h4>10. PONG</h4>
+<h4>11. OBJECT-ORIENTED PONG</h4>
